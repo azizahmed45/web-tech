@@ -1,0 +1,55 @@
+body {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 14px;
+	color: #666;
+}
+
+.account-details,
+.personal-details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.account-details > div,
+.personal-details > div > div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+label {
+	padding: 0 5px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+input {
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.account-details > div,
+.personal-details > div {
+	width: 50%;
+}
+
+label {
+	width: 40%;
+}
+
+input {
+	width: 60%;
+}
+
+select,
+.gender {
+	width: calc(60% + 16px);
+}
+
+.side-menu {
+	background-color: #c05a81;
+	padding: 5px;
+	margin: 5px 0px;
+	color: white;
+}
