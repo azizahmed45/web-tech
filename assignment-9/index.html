@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: solid black 2px;
+            height: 150px;
+            width: 150px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <input id="color-input" type="text" onblur="onBlurEvent()" placeholder="Color">
+    <input id="color-input" type="number" onkeydown="onkeyDownEvent(event)" placeholder="Color number">
+
+    <div class="box" id="box" onclick="clickEvent()" ondblclick="doubleClickEvent()">
+
+    </div>
+
+    <ul>
+        <li>Click for make box red</li>
+        <li>Double Click for make box green</li>
+        <li>Write color and off focus for change box color</li>
+        <li>
+            Enter number of color for color the box
+            <ol>
+                <li>red</li>
+                <li>orange</li>
+                <li>yellow</li>
+                <li>green</li>
+                <li>blue</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+<script src="script.js"></script>
+
+</html>

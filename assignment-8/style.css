@@ -1,0 +1,207 @@
+body {
+	background: url("https://getintopc.com/wp-content/uploads/stains_texture_background_dark_50791_1920x1080.jpg")
+		no-repeat center center fixed;
+	background-size: cover;
+	font-family: Segoe UI;
+	max-width: 1440px;
+	margin: 0px auto;
+}
+
+.logo {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0px 5px;
+}
+
+.logo-1 {
+	color: #ffffff;
+}
+.logo-2 {
+	color: #d7f205;
+}
+
+.subtitle {
+	line-height: 60px;
+	font-family: Verdana;
+	color: #ffffd8;
+	font-style: italic;
+}
+
+.nav {
+	background-image: linear-gradient(rgb(205, 205, 205), rgb(240, 240, 240));
+	margin-bottom: 20px;
+}
+
+.nav-menu {
+	color: #333333;
+	font-weight: bold;
+	display: inline-block;
+	background-image: linear-gradient(rgb(205, 205, 205), rgb(240, 240, 240));
+	padding: 8px 20px;
+	border-right: solid black 1px;
+	margin: -2px;
+	text-decoration: none;
+}
+.nav-menu:hover {
+	color: #007cba;
+	background-image: linear-gradient(rgb(240, 240, 240), rgb(280, 280, 280));
+}
+
+.content {
+	background-color: white;
+	width: 100%;
+}
+
+.main-content {
+	display: inline-block;
+	width: 64%;
+	padding: 0% 2%;
+}
+
+.right-side {
+	display: inline-block;
+	vertical-align: top;
+	width: 28%;
+	padding: 1%;
+}
+
+.right-content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.item {
+	border: solid black 2px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+
+.feature-image {
+	float: left;
+	margin-right: 20px;
+	border: solid #eee 4px;
+	border-radius: 5px;
+}
+
+/* .feature-image::after{
+	content: "";
+	display: inline;
+	clear: left;
+  } */
+
+.details {
+}
+
+.details h1 {
+	color: #6e8c03;
+	font-size: 24px;
+}
+.details p {
+	font-size: 14px;
+}
+.details a {
+	text-decoration: none;
+}
+
+.item-info {
+	overflow: hidden;
+	border: solid #eee 2px;
+	border-radius: 10px;
+	background-color: #eee;
+	font-size: 14px;
+}
+.item-date {
+	background-color: #333;
+	display: inline-block;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.item-info a {
+	font-weight: bold;
+	color: #666;
+}
+
+.pagination {
+	margin: 20px 0px;
+}
+.page {
+	color: #5a6074;
+	padding: 5px 10px;
+	border: solid #eee 1px;
+	border-radius: 5px;
+	background: white;
+	text-decoration: none;
+}
+.page:hover {
+	color: white;
+	background: #a9bf04;
+}
+
+.pagination .active {
+	color: white;
+	background: black;
+}
+
+.bottom-nav {
+	background-color: rgb(221, 221, 221);
+	padding: 10px 0px;
+}
+
+.bottom-nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+.bottom-nav ul li {
+	display: inline-block;
+}
+.bottom-nav ul li a {
+	color: #666;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.bottom-nav ul li a:hover {
+	color: white;
+	border-radius: 20px;
+	background-color: #a9bf04;
+}
+
+.bottom-nav ul li .active {
+	color: white;
+	border-radius: 20px;
+	background-color: #a9bf04;
+}
+
+.empty {
+	height: 1px;
+}
+
+.footer {
+	background-color: rgb(205, 205, 205);
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.footer span {
+	color: #333;
+	font-size: 14px;
+}
+
+.title-banner {
+	background-color: #c9d705;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.right-content a {
+	text-decoration: none;
+	margin: 0px 10px;
+}
